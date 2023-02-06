@@ -1,5 +1,5 @@
 game.ReplicatedStorage.EntityInfo.A90.OnClientEvent:Connect(function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0
-    task.wait(1.75)
+    task.wait(1.8)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 21
 end)
